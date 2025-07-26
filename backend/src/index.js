@@ -16,7 +16,8 @@ const limiter = rateLimit({
 // Middleware
 app.use(cors({
   origin: process.env.CORS_ORIGIN,
-  methods: ['POST']
+  methods: ['POST'],
+  credentials: true,
 }));
 app.use(express.json());
 app.use(limiter);
