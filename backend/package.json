@@ -1,7 +1,7 @@
 {
-  "name": "planora-backend",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "Backend service for Planora using Gemini AI",
+  "description": "Backend service using Gemini AI",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
